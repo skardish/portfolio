@@ -1,5 +1,6 @@
 html {
   font-family: Lato, sans-serif;
+  background-color: #f2f2f2;
 }
 
 .masthead {
@@ -47,7 +48,6 @@ html {
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 100px auto;
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -60,4 +60,35 @@ html {
     text-align: right;
   }
 
+}
+
+img {
+  width: 75%;
+  opacity: 100;
+}
+
+img:hover {
+  opacity: 100;
+}
+
+.name {
+  filter: contrast(100%) grayscale(0%);
+  border-radius: 1em;
+}
+
+.name:hover {
+  filter: contrast(100%) grayscale(100%);
+  transition: all 250ms ease;
+}
+
+h2 {
+ opacity: 0;
+}
+
+h2:hover {
+  opacity: 100;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .9);
+  background-color: #f05b5e;
+  transition: all 250ms ease;
 }
