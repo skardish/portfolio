@@ -4,15 +4,63 @@
   <meta charset="utf-8">
   <title>Sydney Kardish</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css//modules.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css//grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 </head>
 <body>
 
-{{content}}
+  <header class="masthead grid grid-middle island-1-2">
+    <div class="logo unit xs-1 s-1 m-1 l-1-4">
+      <a href="{{site.baseurl}}/">
+      <h1 class="push-0 gutter pad-b-1-4 giga">SK</h1>
+      </a>
+    </div>
+    <nav class="nav unit xs-1 s-1 m-1 l-3-4">
+      <ul class="list-group-inline push-0">
+        <li class="island-1-8">
+          <a class="block text-center gutter pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/">My Work</a>
+        </li>
+        <li class="island-1-8">
+          <a class="block text-center gutter pad-t-1-4 pad-b-1-4 milli" href="{{site.baseurl}}/about/">About Me</a>
+        </li>
+        <li class="island-1-8">
+          <a class="block text-center gutter pad-t-1-4 pad-b-1-4 milli" href="mailto:sydney@skardish.ca">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{content}}
+  </main>
+
+  <footer>
+    <div class="footer pad-t-1-2 pad-b-1-2">
+      <div class="gutter-1-2">
+        <small class="push-0 micro"> © Sydney Kardish </small>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-4 pad-t">
+      <a class="move inline-block" href="#">
+        <i class="gutter icon i-32">
+          <img src="images/facebook.svg" alt="">
+        </i>
+      </a>
+      <a class="move inline-block" href="#">
+        <i class="gutter icon i-32">
+          <img src="images/instagram.svg" alt="">
+        </i>
+      </a>
+      <a class="move inline-block" href="#">
+        <i class="gutter icon i-32">
+          <img src="images/twitter.svg" alt="">
+        </i>
+      </a>
+    </div>
+    </div>
+  </footer>
 
 </body>
 </html>
