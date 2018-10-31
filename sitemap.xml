@@ -1,0 +1,45 @@
+---
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://skardish.ca/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://skardish.ca/index/</loc>
+  </url>
+
+  <url>
+    <loc>https://skardish.ca/about/</loc>
+  </url>
+
+  <url>
+    <loc>https://skardish.ca/broadcast-package/</loc>
+  </url>
+
+  <url>
+    <loc>https://skardish.ca/isometric-illustration/</loc>
+  </url>
+
+  <url>
+    <loc>https://skardish.ca/jumpstart-app-design/</loc>
+  </url>
+
+  <url>
+    <loc>https://skardish.ca/lockitron-app-design/</loc>
+  </url>
+
+  <url>
+    <loc>https://skardish.ca/looping-gif/</loc>
+  </url>
+
+  <url>
+    <loc>https://skardish.ca/motion-reel/</loc>
+  </url>
+
+</urlset>

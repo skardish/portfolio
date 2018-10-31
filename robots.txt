@@ -1,0 +1,3 @@
+Sitemap: https://skardish.ca/sitemap.xml
+
+User-agent: *
