@@ -62,35 +62,7 @@ html {
 
 }
 
-img {
-  width: 75%;
-  opacity: 100;
-}
-
-img:hover {
-  opacity: 100;
-}
-
-.name {
-  filter: contrast(100%) grayscale(0%);
-}
-
-.name:hover {
-  filter: contrast(100%) grayscale(100%);
-  transition: all 250ms ease;
-}
-
-h2 {
- opacity: 0;
-}
-
-.work-card:hover h2 {
-  opacity: 100;
-  color: #fff;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, .9);
-  background-color: #f05b5e;
-  transition: all 250ms ease;
-}
+/*Footer*/
 
 .footer {
   background-color: #2f2f2f;
@@ -132,4 +104,153 @@ a {
 
 .change {
   color: #2f2f2f;
+}
+
+/*Isometric Hover Effect*/
+
+.hover-effect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.hover-effect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  opacity: 0;
+}
+
+.overlay:hover {
+  opacity: 100;
+}
+
+.hover-effect img {
+  display: block;
+  position: relative;
+  transition: all 0.4s ease-in;
+}
+
+.hover-effect:hover img {
+  filter: grayscale(1) blur(3px);
+  transform: scale(1.2);
+}
+
+.hover-effect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+  background: rgba(240, 91, 94, 0.5);
+  color: #fff;
+}
+
+/*Motion Graphics Hover Effect*/
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.hovereffect .overlayy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  background: rgba(141,213,225,0.6);
+  transform: translatey(-100px);
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffect:hover img {
+  transform: scale(1.2);
+  filter: grayscale(1) blur(3px);
+}
+
+.hovereffect:hover .overlayy {
+  opacity: 1;
+}
+
+.hovereffect:hover h2,.hovereffect:hover {
+  opacity: 1;
+  transform: translatey(0);
+}
+
+/*Jumpstart App Hover Effect*/
+
+.hovereffectred {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.hovereffectred .overlayred {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.hovereffectred img {
+  display: block;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffectred h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  background: rgba(240,91,94,0.6);
+  transform: translatey(-100px);
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffectred:hover img {
+  transform: scale(1.2);
+  filter: grayscale(1) blur(3px);
+}
+
+.hovereffectred:hover .overlayred {
+  opacity: 1;
+}
+
+.hovereffectred:hover h2,.hovereffectred:hover {
+  opacity: 1;
+  transform: translatey(0);
 }
