@@ -311,3 +311,7 @@ a {
 .hovereffectblue:hover a.info {
   transition-delay:.2s;
 }
+
+.caps {
+  font-family: "IBM Plex Sans", sans-serif;
+}
