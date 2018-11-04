@@ -50,6 +50,11 @@ html {
   background-size: 100px auto;
 }
 
+.caps {
+  font-family: "IBM Plex Sans", sans-serif;
+  text-transform: uppercase;
+}
+
 @media only screen and (min-width: 60em) {
 
   .logo {
@@ -312,6 +317,16 @@ a {
   transition-delay:.2s;
 }
 
-.caps {
-  font-family: "IBM Plex Sans", sans-serif;
+/*About Me*/
+
+.about {
+  background-color: #fff;
+}
+
+.space {
+  padding-bottom: 3rem;
+}
+
+.spacetop {
+  padding-top: 3rem;
 }
