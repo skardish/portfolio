@@ -9,14 +9,17 @@ html {
   background-size: 64px auto;
 }
 
+.margin {
+}
+
 .logo {
   text-align: center;
-  color: #fff;
+  color: #f2f2f2;
 }
 
 .logo:hover {
-  color: #f05b5e;
-  text-shadow: 1px 1px 25px #f05b5e;
+  color: #8dd5e1;
+  text-shadow: 1px 1px 25px #8dd5e1;
 }
 
 .nav {
@@ -25,8 +28,9 @@ html {
 }
 
 .nav a {
+  float: left;
   text-decoration: none;
-  color: #fff;
+  color: #f2f2f2;
   transition: all 250ms ease;
 }
 
@@ -35,19 +39,16 @@ html {
   text-shadow: 1px 1px 25px #f05b5e;
 }
 
-.banner {
-  background-image: linear-gradient(rgba(47, 47, 47, 0), rgba(47, 47, 47, 0), rgba(47, 47, 47, .8)), url("../images/placeholder-3by2.svg");
-  background-size: cover;
-  background-position: center bottom;
-  border-bottom: 3px solid #f2f2f2;
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
-.banner-content {
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 35em;
   color: #fff;
-  padding-top: 300px;
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-size: 100px auto;
 }
 
 .caps {
@@ -343,4 +344,17 @@ a {
 .verticallinered {
   border-left: thick solid #f05b5e;
   margin-top: 3rem;
+}
+
+.red {
+  color: #f05b5e;
+}
+
+.blue {
+  color: #8dd5e1;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: "Permanent Marker", cursive;
 }
