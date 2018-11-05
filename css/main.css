@@ -330,3 +330,17 @@ a {
 .spacetop {
   padding-top: 3rem;
 }
+
+.white {
+  background-color: #fff;
+}
+
+.verticallineblue {
+  border-left: thick solid #8dd5e1;
+  margin-top: 3rem;
+}
+
+.verticallinered {
+  border-left: thick solid #f05b5e;
+  margin-top: 3rem;
+}
