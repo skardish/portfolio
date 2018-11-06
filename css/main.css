@@ -9,9 +9,6 @@ html {
   background-size: 64px auto;
 }
 
-.margin {
-}
-
 .logo {
   text-align: center;
   color: #f2f2f2;
@@ -352,9 +349,4 @@ a {
 
 .blue {
   color: #8dd5e1;
-}
-
-.title {
-  text-transform: uppercase;
-  font-family: "Permanent Marker", cursive;
 }
