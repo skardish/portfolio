@@ -75,6 +75,18 @@ html {
 
 }
 
+@media only screen and (min-width: 90em) {
+
+  .banner {
+    position: relative;
+    overflow: hidden;
+    max-height: 70em;
+    color: #fff;
+    padding-top: 4rem;
+  }
+
+}
+
 /*Footer*/
 
 .footer {
