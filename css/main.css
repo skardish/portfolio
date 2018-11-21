@@ -357,12 +357,17 @@ a {
 
 .verticallineblue {
   border-left: thick solid #8dd5e1;
-  margin-top: 7rem;
+  margin-top: 1rem;
 }
 
 .verticallinered {
   border-left: thick solid #f05b5e;
-  margin-top: 7rem;
+  margin-top: 1rem;
+}
+
+.verticallinegrey {
+  border-left: thick solid #2f2f2f;
+  margin-top: 1rem;
 }
 
 .red {
@@ -371,6 +376,10 @@ a {
 
 .blue {
   color: #8dd5e1;
+}
+
+.grey {
+  color: #2f2f2f;
 }
 
 /*Contact Form*/
