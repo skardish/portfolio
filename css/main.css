@@ -411,3 +411,18 @@ a {
 .black {
   color: #000;
 }
+
+.btn-success {
+  color: #939598;
+  background-color: #fff;
+  border-color: #faca55;
+  transition: all 250ms ease;
+}
+
+.btn-success:hover {
+  color: #faca55;
+  background-color: #fff;
+  border-color: #939598;
+  transform: scale(1.1);
+  transition: all 250ms ease;
+}
