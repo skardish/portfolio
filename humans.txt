@@ -1,7 +1,7 @@
 # humanstxt.org
 
 #TEAM
-Designer & Developer: Sydney Kardish <sydney@skardish.ca>
+Designer & Developer: Sydney Kardish <skardish15@gmail.com>
 Site: https://skardish.ca
 Location: Ottawa, Canada
 
